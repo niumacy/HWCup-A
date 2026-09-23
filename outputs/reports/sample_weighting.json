@@ -1,0 +1,6 @@
+{
+  "method": "Sample Weighting",
+  "test_acc": 0.6189821182943603,
+  "test_f1": 0.6082144588926557,
+  "vs_baseline": -0.06741788170563967
+}

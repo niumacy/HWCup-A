@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.pytest_cache/
+.coverage
+.tox/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 临时文件
+*.log
+*.tmp
+*.bak
+
+# ⚠️ 以下是数据/模型文件,有选择地忽略
+# 当前项目 Q1 特征和模型权重是核心交付物,不应忽略
+
+# 训练时的中间 checkpoint (非最终交付)
+checkpoints/
+*.ckpt
+
+# 日志目录 (已合并到 outputs/logs)
+logs/
+wandb/
+runs/
+
+# 大型临时文件 (如解压后的中间数据)
+*.tar
+*.tar.gz
+*.zip
+
+# ⚠️ 训练缓存数据 (非核心交付)
+# data/augmented_train.pkl 是 1.5GB 训练缓存, 重新跑训练时会自动生成
+data/augmented_train.pkl
+
+# 备选特征 (本项目未使用 RoBERTa)
+data/roberta_features.pkl
+
+# OS
+Thumbs.db
+
+# 但保留这些是核心交付物:
+# - data/processed/features_q1/*.pkl (Q1 100条特征)
+# - data/raw_attachment2/* (附件2)
+# - outputs/models/*.pt (最佳模型)
+# - outputs/reports/*.md/*.json (训练报告)
+# - delivery/ (交付包)
+# - docs/ (文档)
+# - paper/ (论文)

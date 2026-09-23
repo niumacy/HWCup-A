@@ -1,0 +1,108 @@
+# Q1 工具版本记录
+
+> **目的**：保证成员 A 的提取 pipeline 可复现，B/C 也能复现
+> **更新规则**：环境变化时即时同步
+
+---
+
+## 硬件
+
+| 组件 | 型号 / 版本 |
+|------|-----------|
+| GPU | NVIDIA Quadro RTX 6000 (24 GB) |
+| CUDA Driver | 535.216.03 |
+| CUDA Runtime | 12.1 (PyTorch 自带) |
+| cuDNN | 9.0.1 |
+
+---
+
+## 系统
+
+| 组件 | 版本 |
+|------|------|
+| OS | Ubuntu 20.04.6 LTS |
+| Kernel | 5.13.0-39-generic |
+| Python | 3.8.10 |
+| GCC | 9.4.0 |
+
+---
+
+## Python 关键依赖（实际安装版本）
+
+| 包 | 声明版本 (`requirements.txt`) | 实际安装版本 |
+|----|------------------------------|--------------|
+| **torch** | 2.0.1 | **2.4.1+cu121** ⚠️ |
+| **torchvision** | (未声明) | **0.19.1** |
+| **transformers** | 4.30.0 | **4.46.3** ⚠️ |
+| **librosa** | 0.10.1 | **0.11.0** ⚠️ |
+| **opencv-python** | 5.0.0 | **5.0.0.93** |
+| **numpy** | 1.24.2 | 1.24.2 ✓ |
+| **pandas** | 2.0.0 | 2.0.0 ✓ |
+| **scipy** | 1.10.1 | 1.10.1 ✓ |
+| **scikit-learn** | 1.3.2 | 1.3.2 ✓ |
+| **soundfile** | 0.12.1 | 0.13.1 ⚠️ |
+| **ffmpeg-python** | 0.2.0 | 0.2.0 ✓ |
+| **openpyxl** | (未声明) | 3.1.5 |
+| **tqdm** | (未声明) | 4.70.1 |
+| **pillow** | (未声明) | 7.0.0 |
+
+⚠️ = 与 `requirements.txt` 不一致，以实际为准。建议更新 `requirements.txt`。
+
+---
+
+## 系统命令工具
+
+| 命令 | 版本 | 用途 |
+|------|------|------|
+| **ffmpeg** | 4.2.7-0ubuntu0.1 | 视频抽帧、音频提取 |
+| **ffprobe** | 4.2.7 | 视频元数据 |
+
+---
+
+## 预训练模型权重
+
+| 模型 | 来源 | 缓存位置 |
+|------|------|----------|
+| `bert-base-uncased` | HuggingFace (镜像 hf-mirror.com) | `~/.cache/huggingface/hub/` |
+| `resnet18` ImageNet1K_V1 | torchvision | `~/.cache/torch/hub/checkpoints/` |
+
+---
+
+## 已知不兼容项（需要适配）
+
+1. **transformers 4.30 → 4.46**：`BertModel.from_pretrained(output_hidden_states=False)` 参数仍然兼容；但 `output_attentions` 的返回值结构有微小变化，本项目未使用。
+2. **librosa 0.10 → 0.11**：`librosa.feature.spectral_contrast` 的返回 shape 可能因版本不同而变化，已在代码中显式 `mean(axis=0, keepdims=True)` 适配。
+3. **torch 2.0 → 2.4**：API 完全向后兼容，无需修改。
+4. **Pillow 7.0.0** ⚠️：相对较旧，`ToPILImage` 在某些 resize 行为上与新版略有不同，但当前 ResNet18 预处理不受影响。
+
+---
+
+## 复现命令（一键）
+
+```bash
+# 1. 准备 Python 环境
+cd /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E
+pip install -r requirements.txt
+# 注: pip 真实装的版本可能略高（如 transformers 4.46 而不是 4.30），
+#     但 API 兼容。详见本文档上方表格。
+
+# 2. 下载预训练权重（首次运行自动）
+python3 -c "from transformers import BertModel; BertModel.from_pretrained('bert-base-uncased')"
+python3 -c "import torchvision.models as m; m.resnet18(weights=m.ResNet18_Weights.IMAGENET1K_V1)"
+
+# 3. 全量提取（~2 分钟）
+python3 scripts/extract_features.py
+
+# 4. 验证
+python3 -c "
+import pickle
+d = pickle.load(open('data/processed/features_q1/q1_features_combined.pkl','rb'))['all']
+print('text:', d['text'].shape, 'audio:', d['audio'].shape, 'vision:', d['vision'].shape)
+"
+```
+
+---
+
+## 联系方式
+
+版本变更请联系成员 A 同步本文档。

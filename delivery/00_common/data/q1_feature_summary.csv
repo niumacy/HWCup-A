@@ -1,0 +1,101 @@
+﻿sample_id,video_id,clip_id,annotation,regression_label,classification_label,text_length,text_dim,text_nonzero_ratio,audio_length,audio_dim,audio_nonzero_ratio,vision_length,vision_dim,vision_nonzero_ratio,raw_text_preview,extract_status
+-3g5yACwYnA$_$13,-3g5yACwYnA,13,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,They've been able to find solutions or at least bring some answers to the table.,success
+-3g5yACwYnA$_$3,-3g5yACwYnA,3,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,1.0,"We're a huge user of adhesives for our operation, called flocking, and we don't ...",success
+-3g5yACwYnA$_$2,-3g5yACwYnA,2,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,1.0,Key Polymer brings a technical aspect to our operation that we don't have intern...,success
+-3g5yACwYnA$_$9,-3g5yACwYnA,9,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,We have many new opportunities through the way things have changed through the y...,success
+-3nNcZdcdvU$_$5,-3nNcZdcdvU,5,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,0.9897142857142858,Noncompliance can result in legal liability to you and to the school district in...,success
+-HwX2H8Z4hY$_$2,-HwX2H8Z4hY,2,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,0.9714285714285714,"” [President Ronald Reagan:] ""Look at the record",success
+-HwX2H8Z4hY$_$5,-HwX2H8Z4hY,5,Negative,-1.0,0,50,768,1.0,50,74,1.0,50,35,0.9897142857142858,""" President Ronald Reagan blamed the professional bureaucracy of education",success
+-HwX2H8Z4hY$_$6,-HwX2H8Z4hY,6,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,0.9708571428571429,"And in part, Al Shanker did too",success
+-HwX2H8Z4hY$_$9,-HwX2H8Z4hY,9,Negative,-0.3333333432674408,0,50,768,1.0,50,74,1.0,50,35,0.9965714285714286,It is a word which the administrator uses when he turns around anything which he...,success
+-NFrJFQijFE$_$1,-NFrJFQijFE,1,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,0.9748571428571429,Structural mounts inside have to be properly stress analyzed so we make sure all...,success
+-NFrJFQijFE$_$2,-NFrJFQijFE,2,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,0.928,So we coordinate with all the proper technical fields to get ready for the instr...,success
+-THoVjtIkeU$_$12,-THoVjtIkeU,12,Positive,2.0,2,50,768,1.0,50,74,1.0,50,35,1.0,What ever we turn our attention to is what grows and so if we believe that anyth...,success
+-THoVjtIkeU$_$2,-THoVjtIkeU,2,Positive,1.3333333730697632,2,50,768,1.0,50,74,1.0,50,35,0.9988571428571429,I think social justice is extremely important for young people.,success
+-THoVjtIkeU$_$6,-THoVjtIkeU,6,Positive,2.6666667461395264,2,50,768,1.0,50,74,0.9948648648648649,50,35,1.0,"You know that I think listening to young people, taking in what they have to say...",success
+-UuX1xuaiiE$_$1,-UuX1xuaiiE,1,Positive,1.6666666269302368,2,50,768,1.0,50,74,1.0,50,35,1.0,^And all of them are really being able to explore ^these different areas in dept...,success
+-UuX1xuaiiE$_$0,-UuX1xuaiiE,0,Positive,2.6666667461395264,2,50,768,1.0,50,74,0.9948648648648649,50,35,0.9845714285714285,^it's amazing to see their enthusiasm and their passion,success
+-UuX1xuaiiE$_$3,-UuX1xuaiiE,3,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,My goal is to become a human rights lawyer,success
+-UuX1xuaiiE$_$6,-UuX1xuaiiE,6,Negative,-0.3333333432674408,0,50,768,1.0,50,74,1.0,50,35,1.0,"I ended up going to work for the US government as an intelligence analyst, speci...",success
+-a55Q6RWvTA$_$3,-a55Q6RWvTA,3,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,"And if you clip coupons, if you don't go out for dinner and movies and things of...",success
+-aNfi7CP8vM$_$7,-aNfi7CP8vM,7,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,1.0,"Maybe they have no political party affiliation, they're not interested in politi...",success
+-aqamKhZ1Ec$_$0,-aqamKhZ1Ec,0,Negative,-2.0,0,50,768,1.0,50,74,0.9908108108108108,50,35,0.9982857142857143,"In 2008, there were very serious tribal warfare in Kenya following a disputed el...",success
+-dxfTGcXJoc$_$1,-dxfTGcXJoc,1,Positive,1.6666666269302368,2,50,768,1.0,50,74,1.0,50,35,1.0,"For the 10th straight year, some of Kentucky’s best and most innovative biotech ...",success
+-dxfTGcXJoc$_$0,-dxfTGcXJoc,0,Positive,1.0,2,50,768,1.0,50,74,0.9851351351351352,50,35,0.9874285714285714,This is Governor Steve Beshear ... About Kentucky Our state is home to more than...,success
+-dxfTGcXJoc$_$2,-dxfTGcXJoc,2,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,"An estimated 20,000 biotech scientists, executives and industry experts from mor...",success
+-dxfTGcXJoc$_$6,-dxfTGcXJoc,6,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,Kentucky’s participation at the annual BIO International Convention is the prima...,success
+-egA8-b7-3M$_$26,-egA8-b7-3M,26,Positive,1.6666666269302368,2,50,768,1.0,50,74,1.0,50,35,1.0,We're updating it all the time and looking forward to your comments on our video...,success
+-egA8-b7-3M$_$17,-egA8-b7-3M,17,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,"As you have more experience, you have more times exhibiting, you get to know mor...",success
+-egA8-b7-3M$_$18,-egA8-b7-3M,18,Positive,1.0,2,50,768,1.0,50,74,1.0,50,35,1.0,It becomes easier at each one of these conferences to connect with people that y...,success
+-egA8-b7-3M$_$16,-egA8-b7-3M,16,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,"Third, another big benefit of exhibiting is connecting with existing clients.",success
+-egA8-b7-3M$_$13,-egA8-b7-3M,13,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,"What are you doing that's different?"" They always want an answer.",success
+-egA8-b7-3M$_$1,-egA8-b7-3M,1,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,I started a successful Legal Nurse Consulting Business in 1989. I mentor nurses ...,success
+-egA8-b7-3M$_$6,-egA8-b7-3M,6,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,First exhibiting is a wonderful opportunity to network with other legal vendors.,success
+-egA8-b7-3M$_$9,-egA8-b7-3M,9,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,"Secondly, another goal of exhibiting  is building your company image.",success
+-egA8-b7-3M$_$20,-egA8-b7-3M,20,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,"Now you've got a face that you can connect with a voice, and that makes you clos...",success
+-iRBcNs9oI8$_$3,-iRBcNs9oI8,3,Positive,0.6666666865348816,2,50,768,1.0,50,74,0.9764864864864865,50,35,0.9908571428571429,"Well, it is the secret of power pose",success
+-iRBcNs9oI8$_$7,-iRBcNs9oI8,7,Positive,0.6666666865348816,2,50,768,1.0,50,74,0.9948648648648649,50,35,0.9622857142857143,"Well, for starters, let's look at the word ""power""",success
+-iRBcNs9oI8$_$6,-iRBcNs9oI8,6,Positive,0.3333333432674408,2,50,768,1.0,50,74,0.9948648648648649,50,35,0.9628571428571429,What is a power pose,success
+-iRBcNs9oI8$_$9,-iRBcNs9oI8,9,Positive,1.3333333730697632,2,50,768,1.0,50,74,0.9743243243243244,50,35,0.984,Power is similar to strength,success
+-iRBcNs9oI8$_$8,-iRBcNs9oI8,8,Positive,1.0,2,50,768,1.0,50,74,0.9794594594594594,50,35,0.9611428571428572,"I've drawn this man here, and if you can tell, he has a lot of big muscles, he l...",success
+-lzEya4AM_4$_$5,-lzEya4AM_4,5,Negative,-0.6666666865348816,0,50,768,1.0,50,74,1.0,50,35,1.0,"If it falls into oh any of those three categories, inducing nausea and vomiting ...",success
+-lzEya4AM_4$_$6,-lzEya4AM_4,6,Negative,-0.3333333432674408,0,50,768,1.0,50,74,1.0,50,35,0.9897142857142858,"If the product or poison is some type of petroleum product or corrosive product,...",success
+-mJ2ud6oKI8$_$1,-mJ2ud6oKI8,1,Neutral,0.0,1,50,768,1.0,50,74,0.24324324324324326,50,35,1.0,There are a dozen or more hands on techniques that we can do,success
+-mJ2ud6oKI8$_$2,-mJ2ud6oKI8,2,Neutral,0.0,1,50,768,1.0,50,74,0.24324324324324326,50,35,0.9851428571428571,So physical therapists and chiropractors will do joint manipulations and mobiliz...,success
+-mJ2ud6oKI8$_$6,-mJ2ud6oKI8,6,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,0.9988571428571429,They are all very safe,success
+-mJ2ud6oKI8$_$9,-mJ2ud6oKI8,9,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,1.0,"It's safe and the person will feel better later on, but it's sort of like flossi...",success
+-mJ2ud6oKI8$_$8,-mJ2ud6oKI8,8,Negative,-0.3333333432674408,0,50,768,1.0,50,74,1.0,50,35,0.9982857142857143,Sometimes we have to stretch that joint that is already irritated,success
+-mqbVkbCndg$_$0,-mqbVkbCndg,0,Neutral,0.0,1,50,768,1.0,50,74,0.9948648648648649,50,35,1.0,"How, at a particular moment in time—our moment in time—are they limited",success
+-t217m2on-s$_$2,-t217m2on-s,2,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,"But a good thing to do is yawning, chewing gum is effective.",success
+-t217m2on-s$_$7,-t217m2on-s,7,Negative,-0.6666666865348816,0,50,768,1.0,50,74,1.0,50,35,1.0,"If you find that your ears consistently do this and you can't pop them often, yo...",success
+-tANM6ETl_M$_$3,-tANM6ETl_M,3,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,"The first place is either you have a prospect, or a customer who's never done it...",success
+-tPCytz4rww$_$11,-tPCytz4rww,11,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,1.0,"Make sure that your using comps that are not larger, no larger than twelve hundr...",success
+-tPCytz4rww$_$10,-tPCytz4rww,10,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,1.0,Say twenty percent so if you've got a thousand square foot condo.,success
+-tPCytz4rww$_$12,-tPCytz4rww,12,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,1.0,"No less than eight hundred squire feet and going to similar in, similar with bed...",success
+-tPCytz4rww$_$16,-tPCytz4rww,16,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,0.9988571428571429,So make sure to get a through or to do a through cleaning of the property.,success
+-tPCytz4rww$_$18,-tPCytz4rww,18,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,0.992,Do so and as well you'll also want to remove any clutter from that you've accumu...,success
+-vxjVxOeScU$_$4,-vxjVxOeScU,4,Positive,1.0,2,50,768,1.0,50,74,1.0,50,35,0.9897142857142858,"You're going to talk about their life, their marriage and usually how amazing it...",success
+-wMB_hJL-3o$_$7,-wMB_hJL-3o,7,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,So if you have a loved one who is depressed those are some of the things that yo...,success
+-wny0OAz3g8$_$1,-wny0OAz3g8,1,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,"And because they couldn’t join unions, many Black workers couldn’t get manufactu...",success
+-wny0OAz3g8$_$0,-wny0OAz3g8,0,Positive,0.3333333432674408,2,50,768,1.0,50,74,0.9948648648648649,50,35,1.0,trade labor unions didn’t allow Black workers to join,success
+-wny0OAz3g8$_$3,-wny0OAz3g8,3,Negative,-1.3333333730697632,0,50,768,1.0,50,74,1.0,50,35,1.0,Which then allowed the white workers and unions to justify their decision to not...,success
+-wny0OAz3g8$_$2,-wny0OAz3g8,2,Negative,-0.3333333432674408,0,50,768,1.0,50,74,1.0,50,35,1.0,"And because they couldn’t get these jobs, Black communities had more men out of ...",success
+-wny0OAz3g8$_$5,-wny0OAz3g8,5,Positive,1.0,2,50,768,1.0,50,74,1.0,50,35,0.9851428571428571,"This is what’s now known as racial formation theory, a theory formalized by mode...",success
+-wny0OAz3g8$_$7,-wny0OAz3g8,7,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,1.0,Omi and Winant argue that the concept of race came about as a tool to justify an...,success
+-wny0OAz3g8$_$9,-wny0OAz3g8,9,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,He explores why Black and White Americans tend to have such different outcomes i...,success
+-571d8cVauQ$_$0,-571d8cVauQ,0,Neutral,0.0,1,50,768,1.0,50,74,0.9902702702702703,50,35,0.9777142857142858,"This is Rhett Reiger, White Caspian Studios on behalf of Expert Village.",success
+-571d8cVauQ$_$5,-571d8cVauQ,5,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,"So very important to go out to the locations, walk around, talk with the owners ...",success
+-I_e4mIh0yE$_$1,-I_e4mIh0yE,1,Negative,-0.6666666865348816,0,50,768,1.0,50,74,1.0,50,35,1.0,In the United States we don't punish failure to the degree to which failure is p...,success
+-I_e4mIh0yE$_$3,-I_e4mIh0yE,3,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,"It's perceived that you have actually learned something, over the course of your...",success
+-UacrmKiTn4$_$10,-UacrmKiTn4,10,Negative,-0.6666666865348816,0,50,768,1.0,50,74,1.0,50,35,1.0,"Because, if they are not in any way held accountable for reading the material th...",success
+-UacrmKiTn4$_$4,-UacrmKiTn4,4,Negative,-1.3333333730697632,0,50,768,1.0,50,74,1.0,50,35,0.9988571428571429,Just given to their own devices they are not going to read the textbook.,success
+-hnBHBN8p5A$_$7,-hnBHBN8p5A,7,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,0.9954285714285714,"Picture this, before we actually start hacking, we’re in a room formal setting",success
+-hnBHBN8p5A$_$6,-hnBHBN8p5A,6,Positive,1.0,2,50,768,1.0,50,74,1.0,50,35,0.9977142857142857,"Discussion, how to discuss ideas and opinions more effectively than a native spe...",success
+-qDkUB0GgYY$_$6,-qDkUB0GgYY,6,Positive,1.3333333730697632,2,50,768,1.0,50,74,1.0,50,35,0.9657142857142857,"We always love to hear what you say, and like and share this video as well.",success
+-uywlfIYOS8$_$4,-uywlfIYOS8,4,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,"And then from a brand point of view, we need to make sure we're driving the rele...",success
+-6rXp3zJ3kc$_$8,-6rXp3zJ3kc,8,Negative,-1.0,0,50,768,1.0,50,74,1.0,50,35,0.9988571428571429,Many people are not until they get to be a older age and they realize that gosh ...,success
+-9y-fZ3swSY$_$0,-9y-fZ3swSY,0,Positive,1.0,2,50,768,1.0,50,74,0.9948648648648649,50,35,0.9994285714285714,"is, you can say, hey I really like baby skin, they are so soft, they don’t have ...",success
+-9y-fZ3swSY$_$4,-9y-fZ3swSY,4,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,0.9977142857142857,I’ve seen this in US or in the US,success
+-9y-fZ3swSY$_$8,-9y-fZ3swSY,8,Positive,1.6666666269302368,2,50,768,1.0,50,74,1.0,50,35,0.9965714285714286,That’s a more decent and more polite way to call a lady,success
+-AUZQgSxyPQ$_$2,-AUZQgSxyPQ,2,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,"The perfect soul mate to the Clarisonic Spot Therapy Brush, this gentle, Ph bala...",success
+-HeZS2-Prhc$_$2,-HeZS2-Prhc,2,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,0.9954285714285714,The August jobs report is out and it was seen overall as solid but not great.,success
+-MeTTeMJBNc$_$0,-MeTTeMJBNc,0,Positive,0.3333333432674408,2,50,768,1.0,50,74,0.9902702702702703,50,35,0.9937142857142857,"Okay, what happens at this point after we've taken this brief walk down memory l...",success
+-MeTTeMJBNc$_$13,-MeTTeMJBNc,13,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,0.9634285714285714,"It just needs to be a simple statement, and then you present the gift.",success
+-MeTTeMJBNc$_$7,-MeTTeMJBNc,7,Positive,1.3333333730697632,2,50,768,1.0,50,74,1.0,50,35,0.9817142857142858,Maybe you could find a picture of the couple from their wedding or sometime in t...,success
+-RfYyzHpjk4$_$11,-RfYyzHpjk4,11,Positive,2.0,2,50,768,1.0,50,74,1.0,50,35,0.9931428571428571,"So get your friends lined up, get your business colleagues lined up and have a g...",success
+-RfYyzHpjk4$_$8,-RfYyzHpjk4,8,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,0.9965714285714286,"It's pretty, pretty easy to do but you got to set up those numbers ahead of time...",success
+-RfYyzHpjk4$_$2,-RfYyzHpjk4,2,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,"You can make a conference call but it takes quite a bit of planning, well not a ...",success
+-UUCSKoHeMA$_$0,-UUCSKoHeMA,0,Neutral,0.0,1,50,768,1.0,50,74,0.9902702702702703,50,35,0.9702857142857143,"I mentioned a word in the last clip called 'monotone', and I want to talk about ...",success
+-ri04Z7vwnc$_$0,-ri04Z7vwnc,0,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,0.9908571428571429,going to get married or are already married,success
+-ri04Z7vwnc$_$2,-ri04Z7vwnc,2,Negative,-0.3333333432674408,0,50,768,1.0,50,74,1.0,50,35,1.0,"most people think it'll sort itself out, ""we'll discuss it later,"" it's not some...",success
+-ri04Z7vwnc$_$5,-ri04Z7vwnc,5,Positive,0.3333333432674408,2,50,768,1.0,50,74,1.0,50,35,1.0,""" So I think it's important to discuss finances",success
+-s9qJ7ATP7w$_$1,-s9qJ7ATP7w,1,Positive,0.6666666865348816,2,50,768,1.0,50,74,1.0,50,35,1.0,"But the hardest thing in life to learn, is to lose",success
+-s9qJ7ATP7w$_$0,-s9qJ7ATP7w,0,Negative,-0.3333333432674408,0,50,768,1.0,50,74,0.9948648648648649,50,35,0.9982857142857143,"they have doubt, they have fear, they lose in a Ferrari race, or they lose in a ...",success
+-s9qJ7ATP7w$_$5,-s9qJ7ATP7w,5,Negative,-2.0,0,50,768,1.0,50,74,1.0,50,35,1.0,"I have been beat up and put down and everything that can go wrong, has gone wron...",success
+-s9qJ7ATP7w$_$4,-s9qJ7ATP7w,4,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,1.0,"I have lost at everything you can imagine, seriously",success
+-s9qJ7ATP7w$_$7,-s9qJ7ATP7w,7,Positive,1.0,2,50,768,1.0,50,74,1.0,50,35,1.0,"I used to work for Warren Avis, the guy who started Avis Rent a Car, and he said...",success
+-s9qJ7ATP7w$_$6,-s9qJ7ATP7w,6,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,0.9982857142857143,But I just kept going,success
+-s9qJ7ATP7w$_$8,-s9qJ7ATP7w,8,Positive,1.3333333730697632,2,50,768,1.0,50,74,1.0,50,35,0.9965714285714286,""" And I said, ""Oh, make a profit, and all these other things",success
+-yRb-Jum7EQ$_$1,-yRb-Jum7EQ,1,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,0.9851428571428571,"it comes with the assistance and agitation of states and regimes, Yesterday Iran...",success
+-yRb-Jum7EQ$_$5,-yRb-Jum7EQ,5,Negative,-0.6666666865348816,0,50,768,1.0,50,74,1.0,50,35,0.984,"Yesterday Eliav Gelman lost his life in another terrorist attack, not by the stu...",success
+-yRb-Jum7EQ$_$6,-yRb-Jum7EQ,6,Neutral,0.0,1,50,768,1.0,50,74,1.0,50,35,0.9862857142857143,"Therefore, the world needs to stand with Israel against this incitement, which i...",success

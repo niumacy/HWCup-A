@@ -1,0 +1,6 @@
+{
+  "method": "LSTM Temporal Model",
+  "test_acc": 0.6588720770288858,
+  "test_f1": 0.6446295485879319,
+  "vs_baseline": -0.02752792297111417
+}

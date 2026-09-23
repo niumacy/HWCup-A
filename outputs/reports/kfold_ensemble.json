@@ -1,0 +1,6 @@
+{
+  "method": "5-Fold Cross-Validation Ensemble",
+  "test_acc": 0.6698762035763411,
+  "test_f1": 0.6501337402854015,
+  "vs_baseline": -0.016523796423658865
+}

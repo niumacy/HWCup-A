@@ -1,0 +1,34 @@
+{
+  "tag": "focal_latefusion_norm1_seed2024",
+  "best_val_acc": 0.6373626373626373,
+  "test_metrics": {
+    "Accuracy": 0.6602475928473177,
+    "F1": 0.6521179729343307,
+    "F1_macro": 0.6042727068381971,
+    "MAE": 0.6504017114639282,
+    "Pearson": 0.6616480988308948,
+    "epoch": 3
+  },
+  "config": {
+    "data": "E题数据/附件2-数据集特征文件/aligned_50.pkl",
+    "epochs": 40,
+    "batch_size": 32,
+    "lr": 0.0008,
+    "hidden_dim": 320,
+    "seed": 2024,
+    "model": "latefusion",
+    "normalize": true,
+    "focal_gamma": 0.5,
+    "boundary_weight": 1.0,
+    "cls_weight": 1.0,
+    "reg_weight": 0.5,
+    "label_smoothing": 0.05,
+    "output_dir": "huaweibei-E/outputs",
+    "device": null
+  },
+  "improvement_vs_baseline": {
+    "baseline_acc": 0.6864,
+    "current_acc": 0.6602475928473177,
+    "delta": -0.0261524071526823
+  }
+}

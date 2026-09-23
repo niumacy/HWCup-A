@@ -1,0 +1,51 @@
+{
+  "model_type": "latefusion",
+  "best_epoch": 44,
+  "best_val_f1": 0.6321763143872914,
+  "test_metrics": {
+    "Accuracy": 0.6685006877579092,
+    "F1_weighted": 0.6529349670532502,
+    "F1_macro": 0.5964571072550159,
+    "Precision": 0.6461691221290861,
+    "Recall": 0.6685006877579092,
+    "MAE": 0.706291675567627,
+    "Pearson": 0.651090024460073,
+    "cm": [
+      [
+        141,
+        31,
+        35
+      ],
+      [
+        38,
+        44,
+        76
+      ],
+      [
+        29,
+        32,
+        301
+      ]
+    ]
+  },
+  "config": {
+    "data": "/mnt/data2/home/chenyu/HuaWeiCup/E题数据/附件2-数据集特征文件/aligned_50.pkl",
+    "model": "latefusion",
+    "epochs": 100,
+    "batch_size": 64,
+    "lr": 0.0003,
+    "weight_decay": 0.0005,
+    "hidden_dim": 320,
+    "dropout": 0.45,
+    "label_smoothing": 0.1,
+    "cls_weight": 0.7,
+    "warmup_epochs": 5,
+    "grad_clip": 1.0,
+    "early_stop_patience": 30,
+    "use_q1": false,
+    "q1_path": "/mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/data/processed/features_q1/q1_features_combined.pkl",
+    "output_dir": "/mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/outputs",
+    "seed": 999
+  },
+  "timestamp": "2026-09-23T13:27:32.913326"
+}

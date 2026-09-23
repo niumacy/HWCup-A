@@ -1,0 +1,18 @@
+Q1 Typical Sample Visualization - Caption
+============================================================
+
+[Positive] id=-3g5yACwYnA$_$13
+  regression_label = +0.6667  (classification_label = 2)
+  raw_text: "They've been able to find solutions or at least bring some answers to the table."
+  video: 13.mp4
+
+[Neutral] id=-3g5yACwYnA$_$3
+  regression_label = +0.0000  (classification_label = 1)
+  raw_text: "We're a huge user of adhesives for our operation, called flocking, and we don't have the technical inside compounding or the technical expertise to do these types of things."
+  video: 3.mp4
+
+[Negative] id=-HwX2H8Z4hY$_$5
+  regression_label = -1.0000  (classification_label = 0)
+  raw_text: "" President Ronald Reagan blamed the professional bureaucracy of education"
+  video: 5.mp4
+

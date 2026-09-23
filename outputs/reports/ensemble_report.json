@@ -1,0 +1,9 @@
+{
+  "ensemble_strategy": "hard_voting",
+  "best_metrics": {
+    "Accuracy": 0.671251719394773,
+    "F1_weighted": 0.6528661460677865,
+    "F1_macro": 0.5970167860469374,
+    "Precision": 0.6476170452013527,
+    "Recall": 0.671251719394773,
+    "MAE": 

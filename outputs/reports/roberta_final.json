@@ -1,0 +1,7 @@
+{
+  "method": "RoBERTa + BERT ensemble",
+  "test_acc": 0.6822558459422283,
+  "test_f1": 0.6633611101373885,
+  "single_model_best": 0.672627235213205,
+  "vs_baseline": -0.004144154057771687
+}

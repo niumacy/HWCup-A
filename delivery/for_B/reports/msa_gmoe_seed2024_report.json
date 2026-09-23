@@ -1,0 +1,36 @@
+{
+  "tag": "msa_gmoe",
+  "seed": 2024,
+  "best_val_f1": 0.5986113034238548,
+  "test_metrics": {
+    "Accuracy": 0.6629986244841816,
+    "F1": 0.6533612190254582,
+    "F1_macro": 0.6065144084278363,
+    "MAE": 0.6893174052238464,
+    "Pearson": 0.6151690694669213,
+    "gate_weights_avg": [
+      0.2950749695301056,
+      0.29156070947647095,
+      0.3558783531188965,
+      0.0574861541390419
+    ]
+  },
+  "config": {
+    "data": "/mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/data/raw_attachment2/aligned_50.pkl",
+    "epochs": 25,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "hidden_dim": 192,
+    "seed": 2024,
+    "use_contrastive": true,
+    "contrastive_weight": 0.05,
+    "moe_balance_weight": 0.01,
+    "reg_weight": 0.5,
+    "mixup_alpha": 0.2,
+    "mixup_prob": 0.5,
+    "output_dir": "/mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/outputs",
+    "tag": "msa_gmoe",
+    "device": null
+  },
+  "total_params": 4957197
+}

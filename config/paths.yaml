@@ -1,0 +1,31 @@
+# 项目路径配置
+project_root: /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E
+
+# 原始数据路径 (软链接)
+data:
+  raw_attachment1: /mnt/data2/home/chenyu/HuaWeiCup/E题数据/附件1-数据集原始多模态样本
+  raw_attachment2: /mnt/data2/home/chenyu/HuaWeiCup/E题数据/附件2-数据集特征文件
+  raw_attachment3: /mnt/data2/home/chenyu/HuaWeiCup/E题数据/附件3-模态缺失特征样本
+  raw_attachment4: /mnt/data2/home/chenyu/HuaWeiCup/E题数据/附件4-可解释专项视频样本与特征文件
+
+# 处理后数据路径
+processed:
+  q1_features: /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/data/processed/features_q1
+  q1_combined: /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/data/processed/features_q1/q1_features_combined.pkl
+
+# 输出路径
+outputs:
+  models: /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/outputs/models
+  logs: /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/outputs/logs
+  tables: /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/outputs/tables
+  submissions: /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/outputs/submissions
+
+# 论文路径
+paper:
+  root: /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/paper
+  sections: /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/paper/sections
+  figures: /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/paper/figures
+
+# 文档路径
+docs:
+  root: /mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/docs

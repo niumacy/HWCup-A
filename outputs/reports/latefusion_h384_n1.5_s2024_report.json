@@ -1,0 +1,22 @@
+{
+  "tag": "latefusion_h384_n1.5_s2024",
+  "test": {
+    "Accuracy": 0.640990371389271,
+    "F1": 0.6498547625871598,
+    "F1_macro": 0.6166982651962224,
+    "MAE": 0.68100905418396,
+    "Pearson": 0.6198802185556753
+  },
+  "args": {
+    "data": "E\u9898\u6570\u636e/\u9644\u4ef62-\u6570\u636e\u96c6\u7279\u5f81\u6587\u4ef6/aligned_50.pkl",
+    "epochs": 50,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "hidden_dim": 384,
+    "dropout": 0.35,
+    "seed": 2024,
+    "model": "latefusion",
+    "cls_weight_mult": 1.5,
+    "output_dir": "huaweibei-E/outputs"
+  }
+}
