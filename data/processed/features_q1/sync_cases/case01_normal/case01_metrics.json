@@ -1,0 +1,22 @@
+{
+  "case_id": "case01_normal",
+  "case_label": "Normal三模态齐全",
+  "sample_id": "-wMB_hJL-3o$_$7",
+  "video_id": "-wMB_hJL-3o",
+  "clip_id": 7,
+  "n_tokens": 22,
+  "raw_text": "So if you have a loved one who is depressed those are some of the things that you should think about doing.",
+  "audio_duration_sec": 5.9756,
+  "video_fps": 36.2342,
+  "asr_match_rate": 0.9091,
+  "asr_wer": 0.0909,
+  "mean_token_duration_sec": 0.1632,
+  "alignment_failure_count": 0,
+  "alignment_status": "aligned",
+  "frame_to_token_overlap_ratio": 1.0,
+  "shared_audio_video_window_sec": [
+    0.602,
+    5.455
+  ],
+  "created_at": "2026-09-25T15:49:05.927279"
+}

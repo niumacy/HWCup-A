@@ -1,0 +1,509 @@
+{
+  "total": 100,
+  "aligned": 62,
+  "partial": 38,
+  "failed": 0,
+  "items": [
+    {
+      "sample_id": "q1_-3g5yACwYnA_13",
+      "status": "aligned",
+      "wer": 0.2
+    },
+    {
+      "sample_id": "q1_-3g5yACwYnA_2",
+      "status": "aligned",
+      "wer": 0.2857
+    },
+    {
+      "sample_id": "q1_-3g5yACwYnA_3",
+      "status": "aligned",
+      "wer": 0.1724
+    },
+    {
+      "sample_id": "q1_-3g5yACwYnA_9",
+      "status": "partial",
+      "wer": 0.3333
+    },
+    {
+      "sample_id": "q1_-3nNcZdcdvU_5",
+      "status": "aligned",
+      "wer": 0.0556
+    },
+    {
+      "sample_id": "q1_-571d8cVauQ_0",
+      "status": "aligned",
+      "wer": 0.0833
+    },
+    {
+      "sample_id": "q1_-571d8cVauQ_5",
+      "status": "aligned",
+      "wer": 0.2558
+    },
+    {
+      "sample_id": "q1_-6rXp3zJ3kc_8",
+      "status": "aligned",
+      "wer": 0.1765
+    },
+    {
+      "sample_id": "q1_-9y-fZ3swSY_0",
+      "status": "partial",
+      "wer": 0.5
+    },
+    {
+      "sample_id": "q1_-9y-fZ3swSY_4",
+      "status": "aligned",
+      "wer": 0.2222
+    },
+    {
+      "sample_id": "q1_-9y-fZ3swSY_8",
+      "status": "aligned",
+      "wer": 0.1667
+    },
+    {
+      "sample_id": "q1_-AUZQgSxyPQ_2",
+      "status": "partial",
+      "wer": 0.439
+    },
+    {
+      "sample_id": "q1_-HeZS2-Prhc_2",
+      "status": "aligned",
+      "wer": 0.0625
+    },
+    {
+      "sample_id": "q1_-HwX2H8Z4hY_2",
+      "status": "partial",
+      "wer": 0.75
+    },
+    {
+      "sample_id": "q1_-HwX2H8Z4hY_5",
+      "status": "aligned",
+      "wer": 0.2
+    },
+    {
+      "sample_id": "q1_-HwX2H8Z4hY_6",
+      "status": "aligned",
+      "wer": 0.1429
+    },
+    {
+      "sample_id": "q1_-HwX2H8Z4hY_9",
+      "status": "aligned",
+      "wer": 0.2727
+    },
+    {
+      "sample_id": "q1_-I_e4mIh0yE_1",
+      "status": "aligned",
+      "wer": 0.0556
+    },
+    {
+      "sample_id": "q1_-I_e4mIh0yE_3",
+      "status": "aligned",
+      "wer": 0.1818
+    },
+    {
+      "sample_id": "q1_-MeTTeMJBNc_0",
+      "status": "aligned",
+      "wer": 0.0476
+    },
+    {
+      "sample_id": "q1_-MeTTeMJBNc_13",
+      "status": "aligned",
+      "wer": 0.1429
+    },
+    {
+      "sample_id": "q1_-MeTTeMJBNc_7",
+      "status": "aligned",
+      "wer": 0.0645
+    },
+    {
+      "sample_id": "q1_-NFrJFQijFE_1",
+      "status": "partial",
+      "wer": 1.0
+    },
+    {
+      "sample_id": "q1_-NFrJFQijFE_2",
+      "status": "partial",
+      "wer": 1.0
+    },
+    {
+      "sample_id": "q1_-RfYyzHpjk4_11",
+      "status": "aligned",
+      "wer": 0.0588
+    },
+    {
+      "sample_id": "q1_-RfYyzHpjk4_2",
+      "status": "partial",
+      "wer": 0.36
+    },
+    {
+      "sample_id": "q1_-RfYyzHpjk4_8",
+      "status": "aligned",
+      "wer": 0.1176
+    },
+    {
+      "sample_id": "q1_-THoVjtIkeU_12",
+      "status": "aligned",
+      "wer": 0.0769
+    },
+    {
+      "sample_id": "q1_-THoVjtIkeU_2",
+      "status": "aligned",
+      "wer": 0.0
+    },
+    {
+      "sample_id": "q1_-THoVjtIkeU_6",
+      "status": "aligned",
+      "wer": 0.2333
+    },
+    {
+      "sample_id": "q1_-UUCSKoHeMA_0",
+      "status": "aligned",
+      "wer": 0.1111
+    },
+    {
+      "sample_id": "q1_-UacrmKiTn4_10",
+      "status": "aligned",
+      "wer": 0.2222
+    },
+    {
+      "sample_id": "q1_-UacrmKiTn4_4",
+      "status": "aligned",
+      "wer": 0.0714
+    },
+    {
+      "sample_id": "q1_-UuX1xuaiiE_0",
+      "status": "partial",
+      "wer": 0.6667
+    },
+    {
+      "sample_id": "q1_-UuX1xuaiiE_1",
+      "status": "aligned",
+      "wer": 0.1852
+    },
+    {
+      "sample_id": "q1_-UuX1xuaiiE_3",
+      "status": "aligned",
+      "wer": 0.1111
+    },
+    {
+      "sample_id": "q1_-UuX1xuaiiE_6",
+      "status": "aligned",
+      "wer": 0.0455
+    },
+    {
+      "sample_id": "q1_-a55Q6RWvTA_3",
+      "status": "aligned",
+      "wer": 0.1231
+    },
+    {
+      "sample_id": "q1_-aNfi7CP8vM_7",
+      "status": "aligned",
+      "wer": 0.0
+    },
+    {
+      "sample_id": "q1_-aqamKhZ1Ec_0",
+      "status": "aligned",
+      "wer": 0.1429
+    },
+    {
+      "sample_id": "q1_-dxfTGcXJoc_0",
+      "status": "aligned",
+      "wer": 0.2195
+    },
+    {
+      "sample_id": "q1_-dxfTGcXJoc_1",
+      "status": "aligned",
+      "wer": 0.0833
+    },
+    {
+      "sample_id": "q1_-dxfTGcXJoc_2",
+      "status": "aligned",
+      "wer": 0.1176
+    },
+    {
+      "sample_id": "q1_-dxfTGcXJoc_6",
+      "status": "aligned",
+      "wer": 0.1852
+    },
+    {
+      "sample_id": "q1_-egA8-b7-3M_1",
+      "status": "aligned",
+      "wer": 0.05
+    },
+    {
+      "sample_id": "q1_-egA8-b7-3M_13",
+      "status": "aligned",
+      "wer": 0.0909
+    },
+    {
+      "sample_id": "q1_-egA8-b7-3M_16",
+      "status": "aligned",
+      "wer": 0.0
+    },
+    {
+      "sample_id": "q1_-egA8-b7-3M_17",
+      "status": "aligned",
+      "wer": 0.125
+    },
+    {
+      "sample_id": "q1_-egA8-b7-3M_18",
+      "status": "aligned",
+      "wer": 0.0
+    },
+    {
+      "sample_id": "q1_-egA8-b7-3M_20",
+      "status": "aligned",
+      "wer": 0.0
+    },
+    {
+      "sample_id": "q1_-egA8-b7-3M_26",
+      "status": "aligned",
+      "wer": 0.0
+    },
+    {
+      "sample_id": "q1_-egA8-b7-3M_6",
+      "status": "aligned",
+      "wer": 0.0833
+    },
+    {
+      "sample_id": "q1_-egA8-b7-3M_9",
+      "status": "aligned",
+      "wer": 0.0
+    },
+    {
+      "sample_id": "q1_-hnBHBN8p5A_6",
+      "status": "partial",
+      "wer": 0.9231
+    },
+    {
+      "sample_id": "q1_-hnBHBN8p5A_7",
+      "status": "partial",
+      "wer": 1.2308
+    },
+    {
+      "sample_id": "q1_-iRBcNs9oI8_3",
+      "status": "partial",
+      "wer": 1.75
+    },
+    {
+      "sample_id": "q1_-iRBcNs9oI8_6",
+      "status": "partial",
+      "wer": 1.8
+    },
+    {
+      "sample_id": "q1_-iRBcNs9oI8_7",
+      "status": "partial",
+      "wer": 1.1111
+    },
+    {
+      "sample_id": "q1_-iRBcNs9oI8_8",
+      "status": "partial",
+      "wer": 1.0476
+    },
+    {
+      "sample_id": "q1_-iRBcNs9oI8_9",
+      "status": "partial",
+      "wer": 1.0
+    },
+    {
+      "sample_id": "q1_-lzEya4AM_4_5",
+      "status": "aligned",
+      "wer": 0.0526
+    },
+    {
+      "sample_id": "q1_-lzEya4AM_4_6",
+      "status": "aligned",
+      "wer": 0.0698
+    },
+    {
+      "sample_id": "q1_-mJ2ud6oKI8_1",
+      "status": "partial",
+      "wer": 1.0
+    },
+    {
+      "sample_id": "q1_-mJ2ud6oKI8_2",
+      "status": "partial",
+      "wer": 1.0
+    },
+    {
+      "sample_id": "q1_-mJ2ud6oKI8_6",
+      "status": "partial",
+      "wer": 1.4
+    },
+    {
+      "sample_id": "q1_-mJ2ud6oKI8_8",
+      "status": "partial",
+      "wer": 1.0909
+    },
+    {
+      "sample_id": "q1_-mJ2ud6oKI8_9",
+      "status": "partial",
+      "wer": 0.9545
+    },
+    {
+      "sample_id": "q1_-mqbVkbCndg_0",
+      "status": "partial",
+      "wer": 0.5
+    },
+    {
+      "sample_id": "q1_-qDkUB0GgYY_6",
+      "status": "partial",
+      "wer": 0.3125
+    },
+    {
+      "sample_id": "q1_-ri04Z7vwnc_0",
+      "status": "partial",
+      "wer": 1.0
+    },
+    {
+      "sample_id": "q1_-ri04Z7vwnc_2",
+      "status": "partial",
+      "wer": 1.0
+    },
+    {
+      "sample_id": "q1_-ri04Z7vwnc_5",
+      "status": "partial",
+      "wer": 1.5556
+    },
+    {
+      "sample_id": "q1_-s9qJ7ATP7w_0",
+      "status": "partial",
+      "wer": 0.375
+    },
+    {
+      "sample_id": "q1_-s9qJ7ATP7w_1",
+      "status": "partial",
+      "wer": 0.5455
+    },
+    {
+      "sample_id": "q1_-s9qJ7ATP7w_4",
+      "status": "partial",
+      "wer": 0.3333
+    },
+    {
+      "sample_id": "q1_-s9qJ7ATP7w_5",
+      "status": "aligned",
+      "wer": 0.1579
+    },
+    {
+      "sample_id": "q1_-s9qJ7ATP7w_6",
+      "status": "partial",
+      "wer": 0.8
+    },
+    {
+      "sample_id": "q1_-s9qJ7ATP7w_7",
+      "status": "aligned",
+      "wer": 0.2857
+    },
+    {
+      "sample_id": "q1_-s9qJ7ATP7w_8",
+      "status": "partial",
+      "wer": 0.6154
+    },
+    {
+      "sample_id": "q1_-t217m2on-s_2",
+      "status": "aligned",
+      "wer": 0.0
+    },
+    {
+      "sample_id": "q1_-t217m2on-s_7",
+      "status": "aligned",
+      "wer": 0.0444
+    },
+    {
+      "sample_id": "q1_-tANM6ETl_M_3",
+      "status": "aligned",
+      "wer": 0.1364
+    },
+    {
+      "sample_id": "q1_-tPCytz4rww_10",
+      "status": "partial",
+      "wer": 0.5
+    },
+    {
+      "sample_id": "q1_-tPCytz4rww_11",
+      "status": "partial",
+      "wer": 0.5294
+    },
+    {
+      "sample_id": "q1_-tPCytz4rww_12",
+      "status": "partial",
+      "wer": 0.4231
+    },
+    {
+      "sample_id": "q1_-tPCytz4rww_16",
+      "status": "partial",
+      "wer": 0.625
+    },
+    {
+      "sample_id": "q1_-tPCytz4rww_18",
+      "status": "partial",
+      "wer": 0.3125
+    },
+    {
+      "sample_id": "q1_-uywlfIYOS8_4",
+      "status": "aligned",
+      "wer": 0.2778
+    },
+    {
+      "sample_id": "q1_-vxjVxOeScU_4",
+      "status": "aligned",
+      "wer": 0.0476
+    },
+    {
+      "sample_id": "q1_-wMB_hJL-3o_7",
+      "status": "aligned",
+      "wer": 0.0909
+    },
+    {
+      "sample_id": "q1_-wny0OAz3g8_0",
+      "status": "aligned",
+      "wer": 0.2222
+    },
+    {
+      "sample_id": "q1_-wny0OAz3g8_1",
+      "status": "aligned",
+      "wer": 0.2609
+    },
+    {
+      "sample_id": "q1_-wny0OAz3g8_2",
+      "status": "aligned",
+      "wer": 0.087
+    },
+    {
+      "sample_id": "q1_-wny0OAz3g8_3",
+      "status": "aligned",
+      "wer": 0.1
+    },
+    {
+      "sample_id": "q1_-wny0OAz3g8_5",
+      "status": "aligned",
+      "wer": 0.25
+    },
+    {
+      "sample_id": "q1_-wny0OAz3g8_7",
+      "status": "aligned",
+      "wer": 0.1379
+    },
+    {
+      "sample_id": "q1_-wny0OAz3g8_9",
+      "status": "aligned",
+      "wer": 0.1
+    },
+    {
+      "sample_id": "q1_-yRb-Jum7EQ_1",
+      "status": "partial",
+      "wer": 1.0
+    },
+    {
+      "sample_id": "q1_-yRb-Jum7EQ_5",
+      "status": "partial",
+      "wer": 1.04
+    },
+    {
+      "sample_id": "q1_-yRb-Jum7EQ_6",
+      "status": "partial",
+      "wer": 1.0
+    }
+  ],
+  "created_at": "2026-09-25T15:20:51.121033"
+}

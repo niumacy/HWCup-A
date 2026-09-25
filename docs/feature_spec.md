@@ -2,8 +2,8 @@
 
 > **读者对象**：成员 B（Q2 鲁棒预测）、成员 C（Q3 可解释预测）  
 > **作者**：成员 A  
-> **版本**：v1.0  
-> **最后更新**：2026-09-23
+> **版本**：v2.0（与 alignment v2 同步）  
+> **最后更新**：2026-09-25
 
 本文档定义了 100 条原始样本（附件 1）的三模态特征文件格式与字段语义。所有接口与附件 2 的 `aligned_50.pkl` **保持完全兼容**，可直接通过 `src/data_loader.py` 加载。
 
@@ -101,8 +101,20 @@ with open('q1_-3g5yACwYnA_13.pkl', 'rb') as f:
         'classification_labels': (100,) int64,
         'regression_labels': (100,) float32,
         'annotation': list[str],
+
+        # === v2 新增字段（可选） ===
+        'per_token_audio_sec_start': (100, 50) float32,   # 每个 token 对应音频起秒
+        'per_token_audio_sec_end':   (100, 50) float32,   # 每个 token 对应音频止秒
+        'per_token_video_frame_start': (100, 50) int32,   # 每个 token 对应视频帧起
+        'per_token_video_frame_end':   (100, 50) int32,   # 每个 token 对应视频帧止
     }
 }
+
+# v2 字段说明：
+#   - 这些字段来自 whisperx forced alignment（见 alignment/<video>_<clip>.json）
+#   - 索引 [i, 0] = [CLS]，[i, 49] = [PAD]
+#   - 实际词数：text_length_effective = alignment.tokens 中非 PAD 数（5-49）
+#   - B/C 可忽略这些字段（保持原 v1 代码），也可读取做 token-level 分析
 ```
 
 ---
@@ -111,7 +123,7 @@ with open('q1_-3g5yACwYnA_13.pkl', 'rb') as f:
 
 ```python
 import sys
-sys.path.insert(0, '/mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E')
+sys.path.insert(0, '${REPO_ROOT}')  # ${REPO_ROOT} = 仓库根目录（脱敏后）
 
 from src.data_loader import load_q1_features, get_dataloader
 
@@ -212,3 +224,84 @@ print('✅ Q1 接口兼容性验证通过')
 ## 9. 联系方式
 
 如接口变更或发现问题，请联系成员 A 或在本文件追加 CHANGELOG。
+
+---
+
+## 10. v2 时间对齐说明（2026-09-25 升级）
+
+### 10.1 新增文件
+
+```
+data/processed/features_q1/
+├── alignment/                          # v2 新增：100 个词级对齐 JSON
+│   ├── -3g5yACwYnA_13.json
+│   ├── ...
+│   └── (共 100 个)
+├── alignment_summary.json             # v2 新增：100 条对齐汇总
+├── sync_cases/                         # v2 新增：3 个对照案例三件套
+│   ├── case01_normal/
+│   ├── case02_visual_missing/
+│   └── case03_text_sparse/
+├── backup_old/                         # v2 新增：v1 备份
+│   ├── q1_features_all.pkl
+│   └── extract_log_v1.json
+├── q1_features_all_v2.pkl             # v2 新增：合并特征实体
+├── q1_features_combined.pkl           # 软链接 → q1_features_all_v2.pkl
+└── ...
+```
+
+### 10.2 alignment JSON 结构
+
+每个 `alignment/<video>_<clip>.json`：
+```json
+{
+  "video_id": "-3g5yACwYnA",
+  "clip_id": 13,
+  "sample_id": "-3g5yACwYnA$_$13",
+  "asr_verification": {
+    "raw_text": "...",
+    "asr_text": "...",
+    "wer": 0.2,
+    "match_ok": true
+  },
+  "audio_duration_sec": 5.4,
+  "video_fps": 47.3,
+  "alignment_method": "whisperx-base + wav2vec2",
+  "tokens": [
+    {"idx": 0, "token": "[CLS]", "audio_start_sec": 0.0, "audio_end_sec": 0.0, ...},
+    {"idx": 1, "token": "They've", "audio_start_sec": 0.0, "audio_end_sec": 0.47, ...},
+    ... 50 个 token
+  ],
+  "status": "aligned"  // or "partial" / "failed"
+}
+```
+
+### 10.3 摘要表新增列
+
+`outputs/tables/q1_feature_summary.csv`（v2）：
+- 新增：`text_length_effective`, `audio_length_effective`, `vision_length_effective`
+- 新增：`asr_match_rate`, `alignment_status`, `alignment_wer`
+- 新增：`audio_duration_sec`, `video_fps`
+- 新增：`source_video_path_anonymized`
+
+### 10.4 兼容性
+
+v2 字段名与 v1 **100% 一致**，仅新增 4 个 per_token 可选字段。B/C 代码无须改动。
+
+回退方法（如果 B/C 不兼容）：
+```bash
+cd data/processed/features_q1
+rm q1_features_combined.pkl
+cp backup_old/q1_features_all.pkl .
+```
+
+### 10.5 alignment 统计
+
+| 指标 | 值 |
+|------|-----|
+| 总样本 | 100 |
+| aligned (WER<0.3) | 62 |
+| partial (0.3<WER<0.6) | 38 |
+| failed | 0 |
+| 平均 ASR 匹配率 | 0.606 |
+| 平均 ASR WER | 0.394 |

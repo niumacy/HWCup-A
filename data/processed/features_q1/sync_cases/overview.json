@@ -1,0 +1,71 @@
+{
+  "cases": [
+    {
+      "case_id": "case01_normal",
+      "case_label": "Normal三模态齐全",
+      "sample_id": "-wMB_hJL-3o$_$7",
+      "video_id": "-wMB_hJL-3o",
+      "clip_id": 7,
+      "n_tokens": 22,
+      "raw_text": "So if you have a loved one who is depressed those are some of the things that you should think about doing.",
+      "audio_duration_sec": 5.9756,
+      "video_fps": 36.2342,
+      "asr_match_rate": 0.9091,
+      "asr_wer": 0.0909,
+      "mean_token_duration_sec": 0.1632,
+      "alignment_failure_count": 0,
+      "alignment_status": "aligned",
+      "frame_to_token_overlap_ratio": 1.0,
+      "shared_audio_video_window_sec": [
+        0.602,
+        5.455
+      ],
+      "created_at": "2026-09-25T15:49:05.927279"
+    },
+    {
+      "case_id": "case02_visual_missing",
+      "case_label": "视觉稀疏/长音频",
+      "sample_id": "-AUZQgSxyPQ$_$2",
+      "video_id": "-AUZQgSxyPQ",
+      "clip_id": 2,
+      "n_tokens": 41,
+      "raw_text": "The perfect soul mate to the Clarisonic Spot Therapy Brush, this gentle, Ph balanced and hydrating exfoliant containing jojoba and acai fruit oils and bamboo and prickly bear extracts deliver intense healing, while smooth granules buff away dead, dry skin cells.",
+      "audio_duration_sec": 22.4046,
+      "video_fps": 36.3378,
+      "asr_match_rate": 0.5609999999999999,
+      "asr_wer": 0.439,
+      "mean_token_duration_sec": 0.3617,
+      "alignment_failure_count": 1,
+      "alignment_status": "partial",
+      "frame_to_token_overlap_ratio": 1.0,
+      "shared_audio_video_window_sec": [
+        0.501,
+        21.824
+      ],
+      "created_at": "2026-09-25T15:49:07.176206"
+    },
+    {
+      "case_id": "case03_text_sparse",
+      "case_label": "文本稀疏",
+      "sample_id": "-iRBcNs9oI8$_$6",
+      "video_id": "-iRBcNs9oI8",
+      "clip_id": 6,
+      "n_tokens": 5,
+      "raw_text": "What is a power pose",
+      "audio_duration_sec": 2.8204,
+      "video_fps": 76.8171,
+      "asr_match_rate": -0.8,
+      "asr_wer": 1.8,
+      "mean_token_duration_sec": 0.4513,
+      "alignment_failure_count": 1,
+      "alignment_status": "partial",
+      "frame_to_token_overlap_ratio": 1.0,
+      "shared_audio_video_window_sec": [
+        0.0,
+        2.8204
+      ],
+      "created_at": "2026-09-25T15:49:08.274589"
+    }
+  ],
+  "created_at": "2026-09-25T15:49:08.650738"
+}

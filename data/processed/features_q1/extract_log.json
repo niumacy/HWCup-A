@@ -1,5 +1,6 @@
 {
-  "start_time": "2026-09-23T12:26:07.422624",
+  "start_time": "2026-09-25T15:23:00",
+  "end_time": "2026-09-25T15:49:30.368349",
   "total_samples": 100,
   "success_count": 100,
   "failed_samples": [],
@@ -8,8 +9,69 @@
     "audio",
     "vision"
   ],
-  "extractor_versions": {},
-  "end_time": "2026-09-23T12:28:05.724827",
-  "combined_path": "/mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/data/processed/features_q1/q1_features_combined.pkl",
-  "single_dir": "/mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/data/processed/features_q1/single"
+  "extractor_versions": {
+    "text": {
+      "model_name": "bert-base-uncased",
+      "sha256": "973114660e3bf2619b31dea22cb224aa28dcc65cd554ec05d4cd6be95451663a",
+      "hidden_size": 768,
+      "max_len": 50,
+      "model_dir_sha256": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "sha256_pytorch_model_bin": "097417381d6c7230",
+      "sha256_safetensors": "68d45e234eb4a928"
+    },
+    "audio": {
+      "tool": "opensmile (via librosa fallback)",
+      "version": "2.5.0",
+      "feature_set": "librosa-standard (MFCC+Delta+Spectral+Chroma+ZCR+RMSE)",
+      "level": "lowlevel",
+      "sampling_rate": 16000,
+      "dim_kept": 74,
+      "dim_strategy": "MFCC(20)+Delta(20)+Spectral(5)+ZCR(1)+RMSE(1)+Chroma(12)=59, padded to 74 with mean-fill (15 dims)"
+    },
+    "vision": {
+      "tool": "torchvision",
+      "model_name": "resnet18",
+      "weights": "IMAGENET1K_V1",
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "extracted_layer": "layer4.adaptiveavgpool (512d) -> truncated to 35d via PCA",
+      "dim_kept": 35,
+      "dim_strategy": "ResNet18 pool_feat (512d) -> PCA(35) trained on 100 samples (deterministic, seed=42)"
+    },
+    "alignment": {
+      "tool": "whisperx",
+      "version": "3.1.1",
+      "asr_model": "whisper-base (faster-whisper 1.0.3)",
+      "align_model": "wav2vec2-base-960h",
+      "align_model_sha256": "488fd4f16de84438ffc945334278c1b9fb9b7159a806c1080b16111a958c945d",
+      "vad_model": "stubbed (returns entire audio as speech)",
+      "vad_reason": "pyannote/segmentation-3.0 is gated; stub used for Q1 since forced alignment does not depend on VAD segmentation"
+    }
+  },
+  "alignment_summary": {
+    "tool": "whisperx 3.1.1",
+    "asr_model": "whisper-base (faster-whisper 1.0.3, compute_type=int8)",
+    "device": "cpu",
+    "reason_cpu": "torch 2.4.1 cuDNN 9.1 incompatible with system cuDNN 8.2; CPU is sufficient for 100 short clips",
+    "total": 100,
+    "aligned": 62,
+    "partial": 38,
+    "failed": 0
+  },
+  "python": "3.8.10",
+  "torch": "2.4.1+cu121",
+  "torchvision": "0.19.1",
+  "transformers": "4.46.3",
+  "combined_path": "data/processed/features_q1/q1_features_all_v2.pkl",
+  "symlink": "data/processed/features_q1/q1_features_combined.pkl -> q1_features_all_v2.pkl",
+  "single_dir": "data/processed/features_q1/single",
+  "backup_dir": "data/processed/features_q1/backup_old",
+  "alignment_dir": "data/processed/features_q1/alignment",
+  "sync_cases_dir": "data/processed/features_q1/sync_cases",
+  "summary_csv": "outputs/tables/q1_feature_summary.csv",
+  "notes": [
+    "v1 (commit ca08b27) used linear char-ratio mapping; v2 uses whisperx forced alignment with ASR verification.",
+    "v2 added 4 optional fields: per_token_audio_sec_start/end, per_token_video_frame_start/end.",
+    "v2 fields are 100% backward compatible with v1 (existing code unaffected).",
+    "VAD model is stubbed because pyannote/segmentation-3.0 is gated on HuggingFace; alignment correctness unaffected."
+  ]
 }

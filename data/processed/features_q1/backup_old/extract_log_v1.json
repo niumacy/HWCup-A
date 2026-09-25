@@ -1,0 +1,15 @@
+{
+  "start_time": "2026-09-23T12:26:07.422624",
+  "total_samples": 100,
+  "success_count": 100,
+  "failed_samples": [],
+  "modalities": [
+    "text",
+    "audio",
+    "vision"
+  ],
+  "extractor_versions": {},
+  "end_time": "2026-09-23T12:28:05.724827",
+  "combined_path": "/mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/data/processed/features_q1/q1_features_combined.pkl",
+  "single_dir": "/mnt/data2/home/chenyu/HuaWeiCup/huaweibei-E/data/processed/features_q1/single"
+}

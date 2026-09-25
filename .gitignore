@@ -66,3 +66,15 @@ Thumbs.db
 # - delivery/ (交付包)
 # - docs/ (文档)
 # - paper/ (论文)
+
+# Q1 v2 特征（17.7 MB，合并文件，软链接到 combined.pkl，不需单独跟踪）
+# data/processed/features_q1/q1_features_all_v2.pkl
+
+# alignment JSON 文件是 v2 交付物，应跟踪（不忽略）
+
+# 临时备份
+*.bak
+*.orig
+
+# OS 补充
+desktop.ini

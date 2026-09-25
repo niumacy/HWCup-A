@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-09-25T17:50:00",
+  "pass_count": 10,
+  "total": 10,
+  "items": [
+    {
+      "name": "1. 100 条 alignment JSON",
+      "pass": true,
+      "detail": "100 个"
+    },
+    {
+      "name": "2. alignment_summary.json",
+      "pass": true,
+      "detail": "aligned=62, partial=38, failed=0"
+    },
+    {
+      "name": "3. q1_features_all_v2.pkl",
+      "pass": true,
+      "detail": "17.76 MB"
+    },
+    {
+      "name": "4. q1_features_combined.pkl 软链接",
+      "pass": true,
+      "detail": "→ q1_features_all_v2.pkl"
+    },
+    {
+      "name": "5. backup_old/ 含 v1",
+      "pass": true,
+      "detail": "q1_features_all.pkl"
+    },
+    {
+      "name": "6. v2 字段形状 + 新增字段",
+      "pass": true,
+      "detail": "新增 6 字段: ['raw_text', 'annotation', 'per_token_audio_sec_start', 'per_token_audio_sec_end', 'per_token_video_frame_start', 'per_token_video_frame_end']"
+    },
+    {
+      "name": "7. q1_feature_summary.csv 含 effective length",
+      "pass": true,
+      "detail": "列数=28"
+    },
+    {
+      "name": "8. 3 个 sync cases 三件套",
+      "pass": true,
+      "detail": "3 个完整"
+    },
+    {
+      "name": "9. extract_log.json 含 sha256",
+      "pass": "488fd4f16de84438ffc945334278c1b9fb9b7159a806c1080b16111a958c945d",
+      "detail": "3 个 sha256 字段"
+    },
+    {
+      "name": "10. docs 修订 (v2.0 / 决策 #009 / 数据版本)",
+      "pass": true,
+      "detail": "3 个文档均更新"
+    }
+  ]
+}

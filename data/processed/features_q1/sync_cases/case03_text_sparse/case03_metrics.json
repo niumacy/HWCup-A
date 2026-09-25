@@ -1,0 +1,22 @@
+{
+  "case_id": "case03_text_sparse",
+  "case_label": "文本稀疏",
+  "sample_id": "-iRBcNs9oI8$_$6",
+  "video_id": "-iRBcNs9oI8",
+  "clip_id": 6,
+  "n_tokens": 5,
+  "raw_text": "What is a power pose",
+  "audio_duration_sec": 2.8204,
+  "video_fps": 76.8171,
+  "asr_match_rate": -0.8,
+  "asr_wer": 1.8,
+  "mean_token_duration_sec": 0.4513,
+  "alignment_failure_count": 1,
+  "alignment_status": "partial",
+  "frame_to_token_overlap_ratio": 1.0,
+  "shared_audio_video_window_sec": [
+    0.0,
+    2.8204
+  ],
+  "created_at": "2026-09-25T15:49:08.274589"
+}
